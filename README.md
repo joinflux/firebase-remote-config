@@ -2,6 +2,11 @@
 
 Capacitor community plugin for firebase remote config.
 
+## Compatibility
+
+    Version 1.0.0+ is compatible with Capacitor 4
+    Please use 0.5.2 for Capacitor 3
+
 ## Installation
 
 To use npm
@@ -39,7 +44,6 @@ public class MainActivity extends BridgeActivity {
     this.init(
         savedInstanceState,
         new ArrayList<Class<? extends Plugin>>() {
-
           {
             // Additional plugins you've installed go here
             // Ex: add(TotallyAwesomePlugin.class);
@@ -49,6 +53,7 @@ public class MainActivity extends BridgeActivity {
       );
   }
 }
+
 ```
 
 ## Configuration

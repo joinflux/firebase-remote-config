@@ -3,7 +3,7 @@ require 'json'
 package = JSON.parse(File.read(File.join(File.dirname(__FILE__), 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name = 'JoinfluxFirebaseRemoteConfig'
+  s.name = 'SteadevFirebaseRemoteConfig'
   s.version = package['version']
   s.summary = package['description']
   s.license = package['license']

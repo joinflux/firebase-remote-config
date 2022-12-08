@@ -1,6 +1,6 @@
 {
   "name": "@steadev/firebase-remote-config",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "A native plugin for firebase remote config",
   "homepage": "https://github.com/joinflux/firebase-remote-config",
   "main": "dist/esm/index.js",
@@ -38,7 +38,7 @@
     "dist/",
     "ios/",
     "android/",
-    "JoinfluxFirebaseRemoteConfig.podspec"
+    "SteadevFirebaseRemoteConfig.podspec"
   ],
   "keywords": [
     "capacitor",

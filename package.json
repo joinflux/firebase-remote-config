@@ -1,5 +1,5 @@
 {
-  "name": "@joinflux/firebase-remote-config",
+  "name": "@steadev/firebase-remote-config",
   "version": "0.5.2",
   "description": "A native plugin for firebase remote config",
   "homepage": "https://github.com/joinflux/firebase-remote-config",

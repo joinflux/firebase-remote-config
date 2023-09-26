@@ -1,6 +1,6 @@
 {
   "name": "@joinflux/firebase-remote-config",
-  "version": "0.5.2",
+  "version": "1.0.1",
   "description": "A native plugin for firebase remote config",
   "homepage": "https://github.com/joinflux/firebase-remote-config",
   "main": "dist/esm/index.js",
@@ -16,11 +16,11 @@
   "license": "MIT",
   "dependencies": {
     "firebase": "^8.4.1",
-    "@capacitor/core": "^3.1.2"
+    "@capacitor/core": "^5.0.0"
   },
   "devDependencies": {
-    "@capacitor/android": "latest",
-    "@capacitor/ios": "latest",
+    "@capacitor/android": "^5.0.0",
+    "@capacitor/ios": "^5.0.0",
     "husky": "^4.2.5",
     "np": "^6.2.4",
     "prettier": "^2.0.5",

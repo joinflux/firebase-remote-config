@@ -49,6 +49,7 @@ public class FirebaseRemoteConfig extends Plugin {
       .setMinimumFetchIntervalInSeconds(minFetchTimeInSecs)
       .build();
     this.mFirebaseRemoteConfig.setConfigSettingsAsync(configSettings);
+    call.resolve();
   }
 
   @PluginMethod
